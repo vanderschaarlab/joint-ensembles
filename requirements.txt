@@ -1,5 +1,8 @@
+jupyter
+matplotlib
 numpy==1.26.*
 Pillow==10.0.*
+scikit-learn
 torch==2.1.1
 torchvision==0.16.1
 tqdm==4.65.*
