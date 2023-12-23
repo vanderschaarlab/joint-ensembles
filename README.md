@@ -36,13 +36,13 @@ Then the experiments are split across three files. `src/sweep.py` runs the exper
 
 **Sweep**
 
-Set the path to the folder in which the data is stored (or should be downloaded to) in `src/configs/data.json`.
+Set the path to the folder in which the data is stored (or should be downloaded to) in `src/configs/paths.json` (under the `"data"` key).
 
 Next, select the configuration of the experiment. The high-level experimental parameters are set in `src/configs/sweep/experiment.json` and the more fine-grained optimization hyperparameters are set in `src/configs/sweep/optim.json`. The values implemented for the arguments that the user might wish to change are listed in `src/tests/implemented.json`.
 
 Once the configs are set, the experiment can be run with the following command (where `<tag>` is an optional keyword to save the experiment under).
 ```
-python src/sweep.py <tag>
+python src/sweep.py -tag <tag>
 ```
 After the experiment is complete the results can be found in the `results/` folder.
 
@@ -54,7 +54,7 @@ Next, select the configuration of the experiment. The high-level experimental pa
 
 Once the configs are set, the experiment can be run with the following command (where `<tag>` is an optional keyword to save the experiment under).
 ```
-python src/imagenet.py <tag>
+python src/imagenet.py -tag <tag>
 ```
 After the experiment is complete the results can be found in the `results/` folder.
 
