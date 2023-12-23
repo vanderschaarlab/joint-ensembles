@@ -66,7 +66,7 @@ Then simply run the cells in `src/diagnostics.ipynb` corresponding to each of th
 
 **Plotting**
 
-A plotting notebook is provided in `src/plotting/generate_figure.ipynb` illustrating how the outputs of *sweep* and *ImageNet* experiments can be plotted. 
+A plotting notebook is provided in `plotting/generate_figure.ipynb` illustrating how the outputs of *sweep* and *ImageNet* experiments can be plotted. 
 
 ### Citation
 
